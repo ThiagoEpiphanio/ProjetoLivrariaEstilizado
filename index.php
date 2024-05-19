@@ -15,7 +15,8 @@
         <li><a href="consulta\consultaidgenero.php">Consulta por Código do Gênero</a><br></li><br><br>
         <li><a href="consulta\consultanomelivro.php">Consulta por Livro</a></li>
         <li><a href="consulta\consultanomeautor.php">Consulta por Autor</a></li>
-        <li><a href="consulta\consultanomegenero.php">Consulta por Gênero</a></li>
+        <li><a href="consulta\consultanomegenero.php">Consulta por Gênero</a></li><br>
+        <!-- <li><a href="limpar_bd.php">LIMPAR BANCO DE DADOS</a></li> -->
     </ul>
 </body>
 </html>

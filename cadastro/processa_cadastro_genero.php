@@ -17,4 +17,5 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 ?>
 <br><br>
+<a href="cadastro_genero.php">Cadastrar Novo Gênero</a><br><br>
 <a href="../index.php">Voltar ao Menu</a>

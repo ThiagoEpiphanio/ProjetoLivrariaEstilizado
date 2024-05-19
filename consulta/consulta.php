@@ -54,7 +54,7 @@
         }
         echo "</table>";
     } else {
-        echo "Nenhum livro cadastrado.";
+        echo "Nenhum livro cadastrado.<br>";
     }
 
     // Consulta os dados da tabela de autores
@@ -78,7 +78,7 @@
         }
         echo "</table>";
     } else {
-        echo "Nenhum autor cadastrado.";
+        echo "Nenhum autor cadastrado.<br>";
     }
 
     // Consulta os dados da tabela de gêneros

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03/05/2024 às 02:41
+-- Tempo de geração: 19/05/2024 às 18:21
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `livraria`
+-- Banco de dados: `bd2504204`
 --
 
 -- --------------------------------------------------------
@@ -37,8 +37,11 @@ CREATE TABLE `tbautor` (
 --
 
 INSERT INTO `tbautor` (`codAutor`, `nomeAutor`) VALUES
-(1, 'Thiag4'),
-(2, 'Fernando Drummond');
+(1, 'George Orwell'),
+(2, 'Jane Austen'),
+(3, 'Gabriel García Márquez'),
+(4, 'J.R.R. Tolkien'),
+(5, 'Jerome David Salinger');
 
 -- --------------------------------------------------------
 
@@ -56,8 +59,11 @@ CREATE TABLE `tbgenero` (
 --
 
 INSERT INTO `tbgenero` (`codGenero`, `genero`) VALUES
-(2, 'Romance'),
-(3, 'Ação');
+(1, 'Ficção'),
+(2, 'Romance Clássico'),
+(3, 'Realismo Mágico'),
+(4, 'Fantasia'),
+(5, 'Romance');
 
 -- --------------------------------------------------------
 
@@ -76,9 +82,11 @@ CREATE TABLE `tblivro` (
 --
 
 INSERT INTO `tblivro` (`codLivro`, `nomeLivro`, `anoLancamento`) VALUES
-(9, 'Rovilson21', 2045),
-(10, 'Elaine', 2022),
-(11, 'Jogos Vorazes', 2012);
+(1, '1984', 1949),
+(2, 'Orgulho e Preconceito', 1813),
+(3, 'Cem Anos de Solidão', 1967),
+(4, 'O Senhor dos Anéis: A Sociedade do Anel', 1954),
+(5, 'O Apanhado no Campo de Centeio', 1951);
 
 --
 -- Índices para tabelas despejadas
@@ -110,19 +118,19 @@ ALTER TABLE `tblivro`
 -- AUTO_INCREMENT de tabela `tbautor`
 --
 ALTER TABLE `tbautor`
-  MODIFY `codAutor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `codAutor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de tabela `tbgenero`
 --
 ALTER TABLE `tbgenero`
-  MODIFY `codGenero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `codGenero` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de tabela `tblivro`
 --
 ALTER TABLE `tblivro`
-  MODIFY `codLivro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `codLivro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -18,4 +18,5 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 ?>
 <br><br>
+<a href="cadastro_livro.php">Cadastrar Novo Livro</a><br><br>
 <a href="../index.php">Voltar ao Menu</a>
