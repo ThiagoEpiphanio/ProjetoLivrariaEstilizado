@@ -109,17 +109,17 @@
 <style>
 .carousel-item img {
     width: 100%;
-    height: auto; /* Mantém a proporção da imagem */
-    object-fit: cover; /* Faz a imagem cobrir o contêiner */
-    max-height: 400px; /* Define uma altura máxima para as imagens */
+    height: auto; 
+    object-fit: cover;
+    max-height: 400px; 
 }
 
 .carousel-caption.bottom-caption {
-    bottom: 0; /* Posiciona a legenda na parte inferior */
+    bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.65); /* Fundo escurecido para 65% de opacidade */
-    padding: 1rem; /* Espaçamento interno */
+    background: rgba(0, 0, 0, 0.65);
+    padding: 1rem;
     text-align: center;
 }
 </style>
