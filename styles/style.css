@@ -1,0 +1,42 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --botao-azul-efeito: #3c92fa;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5 0;
+    background-color: #3c92fa;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.rodape__lista {
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--branco-principal);
+    font-size: 14px;
+}
+
+.mencao{
+    text-align: center;
+    font-weight: bold;
+    
+}
