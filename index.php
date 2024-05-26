@@ -150,7 +150,7 @@
                     </li>
                     <br>
                     <li class="lista__link">
-                        <a href="#" target="blank">Vitor de Melo Souza</a>
+                        <a href="https://www.linkedin.com/in/vitor-melo-a37004215/" target="blank">Vitor de Melo Souza</a>
                     </li>                    
                 </ul>
                 <p class="rodape__texto">® Thiago Epiphanio da Silva e Vitor de Melo Souza.<br>Todos os direitos reservados.</p>
