@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../styles/style.css">
+
 <?php
 // Inclui o arquivo de conexão
 include '../conexao.php';
@@ -18,5 +20,5 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 ?>
 <br><br>
-<a href="cadastro_livro.php">Cadastrar Novo Livro</a><br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<a href="cadastro_livro.php" class="std-button">Cadastrar Novo Livro</a><br><br>
+<a href="../index.php" class="std-button">Voltar à Home</a>

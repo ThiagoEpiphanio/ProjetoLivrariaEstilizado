@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Busca Livros por Nome</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <style>
         #livrosTable {
             display: none;
@@ -37,7 +38,7 @@
     </script>
 </head>
 <body>
-    <h1>Busca Livros por Nome</h1>
+    <h1 class="page-title">Busca Livros por Nome</h1>
     <br>
     
     <input type="text" id="buscaInput" onkeyup="buscarLivros()" placeholder="Buscar livros...">
@@ -76,7 +77,7 @@
         ?>
     </table>
     <br><br>
-    <a href="../index.php">Voltar ao Menu</a>
+    <a href="../index.php" class="std-button">Voltar à Home</a>
 </body>
 </html>
 

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../styles/style.css">
+
 <?php
 // Incluir o arquivo de conexão
 include '../conexao.php';
@@ -14,10 +16,10 @@ if(isset($_GET['codGenero'])) {
         // Exibir o formulário de edição
         while($row = $result->fetch_assoc()) {
 ?>
-            <h2>Editar Gênero</h2>
+            <h2 class="page-title">Editar Gênero</h2>
             <form action="processa_edicao_genero.php" method="POST">
                 <input type="hidden" name="codGenero" value="<?php echo $row['codGenero']; ?>">
-                Nome do Gênero: <input type="text" name="genero" value="<?php echo $row['genero']; ?>"><br><br>
+                Nome do Gênero: <input type="text" name="genero" value="<?php echo $row['genero']; ?>">
                 <input type="submit" value="Salvar">
             </form>
 <?php
@@ -33,5 +35,5 @@ if(isset($_GET['codGenero'])) {
 $conn->close();
 ?>
 
-<br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<br>
+<a href="../index.php" class="std-button">Voltar à Home</a>

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Dados</title>
+    <link rel="stylesheet" href="../styles/style.css">
+
     <style>
         table {
             border-collapse: collapse;
-            width: 50%;
+            width: 50%;            
         }
 
         th, td {
@@ -18,15 +22,18 @@
         th {
             background-color: #f2f2f2;
         }
+
     </style>
     <script>
         function confirmarExclusao() {
             return confirm("Tem certeza de que deseja excluir este item?");
         }
     </script>
+
 </head>
+
 <body>
-    <h1>Consulta de Dados</h1>
+    <h1 class="page-title">Consulta de Dados</h1>
 
     <?php
     // Inclui o arquivo de conexão
@@ -110,6 +117,7 @@
     ?>
 
 </body>
+
 <br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<a href="../index.php" class="std-button">Voltar à Home</a>
 </html>

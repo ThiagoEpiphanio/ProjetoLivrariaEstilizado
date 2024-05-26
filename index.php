@@ -6,7 +6,8 @@
     <title>Menu Inicial</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
-</head>
+
+  </head>
 
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -75,7 +76,7 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/cultura.jpg" class="d-block w-100" alt="First slide">
+            <img src="img/pexels-enginakyurt-2767814.jpg" class="d-block w-100" alt="First slide">
             <div class="carousel-caption bottom-caption">
                 <h5>Cadastre como quiser</h5>
                 <p>Utilize nossa plataforma para fazer cadastro de livros, autores e gêneros</p>
@@ -122,6 +123,7 @@
     padding: 1rem;
     text-align: center;
 }
+
 </style>
 
 

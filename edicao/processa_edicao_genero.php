@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../styles/style.css">
+
 <?php
 // Inclui o arquivo de conexão
 include '../conexao.php';
@@ -23,5 +25,5 @@ if(isset($_POST['codGenero'], $_POST['genero'])) {
 $conn->close();
 ?>
 <br><br>
-<a href="../consulta/consulta.php">Voltar ao Menu de Consultas</a><br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<a href="../consulta/consulta.php" class="std-button">Voltar a Consultas</a><br><br>
+<a href="../index.php" class="std-button">Voltar à Home</a>
