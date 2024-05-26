@@ -1,0 +1,62 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --botao-azul: #3c92fa;
+     
+}
+
+* body {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.rodape__lista {
+    justify-content: center;
+    list-style-type: none;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--branco-principal);
+    font-size: 14px;
+}
+
+.mencao{
+    text-align: center;
+    font-weight: bold;
+}
+
+.std-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--botao-azul) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+}
+
+.page-title{
+    font-size: 24px; 
+    font-weight: bold; 
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}

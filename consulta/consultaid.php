@@ -32,9 +32,10 @@ if(isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Livro por Código</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1>Consulta de Livro por Código</h1>
+    <h1 class="page-title">Consulta de Livro por Código</h1>
     <form method="POST" action="">
         <label for="codLivro">Código do Livro:</label>
         <input type="text" name="codLivro" id="codLivro">
@@ -57,6 +58,6 @@ if(isset($_POST['submit'])) {
 </body>
 
 <br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<a href="../index.php" class="std-button">Voltar à Home</a>
 
 </html>

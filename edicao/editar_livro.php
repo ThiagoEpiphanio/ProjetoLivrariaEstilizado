@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>Editar Livro</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1>Editar Livro</h1>
+    <h1 class="page-title">Editar Livro</h1>
 
     <?php
     // Inclui o arquivo de conexão
@@ -44,5 +45,5 @@
 
 </body>
 <br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<a href="../index.php" class="std-button">Voltar à Home</a>
 </html>

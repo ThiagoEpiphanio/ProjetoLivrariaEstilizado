@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Busca Gêneros por Nome</title>
+    <link rel="stylesheet" href="../styles/style.css">
     <style>
         #generosTable {
             display: none;
@@ -37,7 +38,7 @@
     </script>
 </head>
 <body>
-    <h1>Busca Gêneros por Nome</h1>
+    <h1 class="page-title">Busca Gêneros por Nome</h1>
     <br>
     
     <input type="text" id="buscaInput" onkeyup="buscarGeneros()" placeholder="Buscar gêneros...">
@@ -71,6 +72,6 @@
         ?>
     </table>
     <br><br>
-    <a href="../index.php">Voltar ao Menu</a>
+    <a href="../index.php" class="std-button">Voltar à Home</a>
 </body>
 </html>

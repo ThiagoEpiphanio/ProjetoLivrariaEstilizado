@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>Editar Autor</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1>Editar Autor</h1>
+    <h1 class="page-title">Editar Autor</h1>
 
     <?php
     // Inclui o arquivo de conexão
@@ -25,7 +26,7 @@
 
             <form action="processa_edicao_autor.php" method="post">
                 <input type="hidden" name="codAutor" value="<?php echo $autor['codAutor']; ?>">
-                Nome do Autor: <input type="text" name="nomeAutor" value="<?php echo $autor['nomeAutor']; ?>"><br>
+                Nome do Autor: <input type="text" name="nomeAutor" value="<?php echo $autor['nomeAutor']; ?>">
                 <input type="submit" value="Salvar">
             </form>
 
@@ -43,5 +44,5 @@
 
 </body>
 <br><br>
-<a href="../index.php">Voltar ao Menu</a>
+<a href="../index.php" class="std-button">Voltar à Home</a>
 </html>
